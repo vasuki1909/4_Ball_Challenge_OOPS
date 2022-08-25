@@ -18,7 +18,7 @@ public class Ball {
         this.rateOfSpeed = rateOfSpeed;
     }
 
-    public void draw_circle(){
+    public void draw_ball(){
        pApplet.ellipse(width,height,diameter,diameter);
         width+=rateOfSpeed;
     }

@@ -30,7 +30,7 @@ public class BallProcessing extends PApplet {
     @Override
     public void draw() {
         for (int ball_count = 0; ball_count < totalBalls; ball_count++) {
-            balls[ball_count].draw_circle();
+            balls[ball_count].draw_ball();
         }
     }
 }
